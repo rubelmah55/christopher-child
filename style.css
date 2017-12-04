@@ -1,0 +1,187 @@
+/*
+Theme Name:       christopher Child
+Theme URI:        http://hypercoder.co
+Description:      Christopher Child Theme
+Author:           Azizul Haque
+Author URI:       http://hypercoder.co
+Template:         christopher
+Version:          1.0.0
+Template Version: 1.0.0
+Text Domain:      christopher-child
+*/
+h1{
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: normal;
+}
+h3{
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+}
+h2{
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: normal;
+}
+h1.connect a:hover {
+    color: #000 !important;
+}
+ p {
+    font-size: 16px;
+    line-height: 28px;
+}
+a{
+	text-decoration: none;
+}
+.wiget_icon {
+    display: flex;
+}
+.wiget_icon a{
+    margin-left: 10px;
+}
+.wiget_icon a {
+    text-decoration: none;
+}
+.wiget_icon a i {
+    display: flex;
+    font-size: 20px;
+    color: #831e28;
+    width: 36px;
+    height: 36px;
+    background: #FFF;
+    border-radius: 500px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+.wiget_icon a i:hover{
+	color: #fff;
+	background: #831e28;
+}
+.footer_icon {
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.vc-zigzag-inner {
+    margin: 0 auto;
+}
+a.call-now {
+    background: #831e28 !important;
+    color: #fff !important;
+}
+a.call-now:hover {
+    background: #fff !important;
+    color: #831e28 !important;
+}
+h3.border_bottom {
+    position: relative;
+}
+h3.border_bottom:after {
+    position: absolute;
+    content: '';
+    background: #831e28;
+    width: 240px;
+    height: 3px;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.img-hover{
+	transition: all 0.5s;
+    padding: 20px !important;
+}
+.img-hover:hover{
+	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px) !important;
+}
+.icon-design i.fa {
+    position: relative;
+    width: 157px;
+    height: 157px;
+    line-height: 144px;
+    border: solid 2px #1f2531;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+.icon-design i.fa:before {
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    line-height: 144px;
+    color: #fff;
+    background: #831e28;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* contact form */
+.contact-form {
+    width: 60%;
+    background: #831e28;
+    padding: 50px 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+input.wpcf7-form-control.wpcf7-submit.btn-send {
+    background: #fff;
+    color: #831e28;
+    border-radius: 15px;
+    float: right;
+}
+input.wpcf7-form-control.wpcf7-submit.btn-send:hover {
+    background: #831e28;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #FFF !important;
+    font-size: 1em;
+    display: inline-block;
+    background-color: red;
+    padding: 1px 12px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -2px;
+    font-size: 11px;
+}
+span.wpcf7-not-valid-tip:before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    top: -4px;
+    transform: rotate(45deg);
+    left: 5px;
+}
+div.wpcf7-response-output {
+    display: inline-block;
+    margin: 0 0 3.5em 0;
+}
+.wpcf7-submit {
+    display: block !important;
+}
